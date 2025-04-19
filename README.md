@@ -1,12 +1,14 @@
 # GoLearning
 Golang学习记录
-包括命令行框架Cobra,ORM grom，已经web框架 gin
+包括命令行框架Cobra,ORM grom，以及web框架 gin
 
 ---
 
 ## 链接
-[GO八小时入门](https://www.bilibili.com/video/BV1gf4y1r79E?spm_id_from=333.788.player.switch&vd_source=452811d53d64d58829c7c9b100c1115c&p=51)
-
+入门：[GO八小时入门](https://www.bilibili.com/video/BV1gf4y1r79E?spm_id_from=333.788.player.switch&vd_source=452811d53d64d58829c7c9b100c1115c&p=51)
+基础:
+https://cobra.golang.ac.cn
+https://gorm.io
 
 
 ---
