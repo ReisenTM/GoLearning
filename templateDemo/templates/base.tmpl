@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <title>模板继承</title>
+</head>
+<style>
+    body {
+        background-color: black;
+        margin: 0;
+        font-family: Arial, sans-serif;
+        color: white;
+    }
+    .navbar {
+        background-color: #ffffff;
+        width: 100%;
+        height: 60px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        z-index: 1000;
+    }
+    .menu {
+        margin-top: 80px;
+        padding: 10px 20px;
+        background-color: #222;
+        font-size: 18px;
+    }
+    .container {
+        width: 100%;
+        max-width: 1200px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #333;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+    }
+</style>
+<body>
+    <div class="navbar">
+    </div>
+    <div class="menu">
+        dad
+    </div>
+    <div class="container">
+        {{block "content" .}}{{end}}
+    </div>
+</body>
+</html>
